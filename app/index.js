@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { View,StyleSheet, Pressable } from 'react-native';
-import { TextInput ,Button, HelperText, Text,Portal,Modal} from 'react-native-paper';
+import { TextInput ,Button, HelperText, Text} from 'react-native-paper';
 import { Link } from 'expo-router';
 import {auth} from '../firebase'
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
